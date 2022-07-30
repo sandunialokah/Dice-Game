@@ -1,0 +1,94 @@
+body{
+    background-color: gainsboro;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    background-color:yellowgreen;
+    color: white;
+    padding: 15px 60px;
+    border-style: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*.rollButton{
+    padding-top: 40px;
+    padding-left: 600px;
+}
+
+.resetButton{
+    padding-top: 20px;
+    padding-left: 595px;
+}*/
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 150px;
+}
+
+/*.dice {
+    text-align: center;
+}
+
+.dice1{
+    display: inline-block;
+}
+
+.dice2{
+    display: inline-block;
+}*/
+
+.dice{
+    display:flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+/*.player1{
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.player2{
+    display: inline-block;
+    padding-left: 800px;
+}*/
+
+.score1{
+    background-color:rgba(255, 0, 0, 0.6);
+    padding: 15px 60px;
+    color: white;
+    font-weight: 1000;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.score2{
+    background-color:rgba(0, 255, 0, 0.6);
+    padding: 15px 60px;
+    color: white;
+    font-weight: 1000;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.players{
+    display: flex;
+    justify-content: space-between;
+}
